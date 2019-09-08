@@ -1,0 +1,24 @@
+#--For Chrome driver--!
+
+#driver_path=D:/workspace/chromedriver.exe
+#driver_value=webdriver.chrome.driver
+
+urlF=https://www.flipkart.com/
+
+#---Web Elements on login Page---!
+cancel_login_popup_window_xpath=/html/body/div[2]/div/div/button
+
+#---Web Elements on Home Page---!
+hoverElectronic=//div[@id=\"container\"]/div/div[2]/div/ul/li[1]/span
+select_Pixel_3a=//div[@id=\"container\"]/div/div[2]/div/ul/li[1]/ul/li/ul/li[1]/ul/li[11]/a
+
+#---Web Elements on Mobile Page---!
+selectMobile=//div[@id='container']/div/div[3]/div[2]/div[1]/div[2]/div[2]/div/div/div/a/div[2]/div[1]/div[1]
+
+#---Web Elements on AddToCart Page---!
+addToCart=//div[@id='container']/div/div[3]/div[2]/div[1]/div[1]/div[2]/div/ul/li[1]/button
+incrementQuantity=//div[@id='container']/div/div[2]/div[2]/div/div[1]/div/div[2]/div/div[2]/div[1]/div/button[2]
+
+#---Web Elements on VerifyPrice Page---!
+
+ActualPrice=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div[1]/div/div/div[1]/div[3]/div/span

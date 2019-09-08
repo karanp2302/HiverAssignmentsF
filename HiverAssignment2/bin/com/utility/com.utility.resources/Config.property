@@ -1,0 +1,52 @@
+#--For Chrome driver--!
+
+#driver_path=D:/workspace/chromedriver.exe
+#driver_value=webdriver.chrome.driver
+
+urlFlipkart=https://www.flipkart.com/
+
+urlAmazon=https://www.amazon.in
+
+
+
+#---Web Elements on Search IPhone 7 in Amazon Page---!
+
+amazon_search_box=//input[@id='twotabsearchtextbox']
+search_product_in_amazon=iPhone 7 32 gb(black)\n)
+
+
+#---Web Elements on Select IPhone 7 in Amazon Page---!
+
+amazon_visible_element=//div[@id='search']/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a/span
+
+select_phone_in_amazon=//div[@id='search']/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a/span
+
+#---Web Elements on Get IPhone 7 Price in Amazon Page---!
+
+get_amazon_price=//span[@id='priceblock_ourprice']
+
+
+
+#---Web Elements on Search IPhone 7 in Flipkart Page---!
+cancel_login=/html/body/div[2]/div/div/button
+
+flipkart_search_box=//input[@type='text']
+search_product_in_flipkart=iPhone 7 32 gb(black)\n)
+
+#---Web Elements on Select IPhone 7 in Flpkart Page---!
+flipkart_visible_element1=//div[@id=\"container\"]/div/div[3]/div[2]/div[1]/div[2]/div[2]/div/div/div/a/div[2]/div[1]/div[1]
+
+select_phone_in_flipkart=//div[@id=\"container\"]/div/div[3]/div[2]/div[1]/div[2]/div[2]/div/div/div/a/div[2]/div[1]/div[1]
+
+
+#---Web Elements on Get IPhone 7 Price in Flipkart Page---!
+flipkart_visible_element2=//*[@id=\"container\"]/div/div[3]/div[2]/div[1]/div[2]/div[2]/div/div[4]/div[1]/div/div[1]
+get_flipkart_price=//*[@id=\"container\"]/div/div[3]/div[2]/div[1]/div[2]/div[2]/div/div[4]/div[1]/div/div[1]
+
+
+#---Web Elements on Compare Price Page---!
+
+
+
+
+
